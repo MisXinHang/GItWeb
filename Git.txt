@@ -1,0 +1,10 @@
+1、进入登录Github，创建一个存储库名称。注：勾选使用自述文件初始化此存储库
+2、点击存储库克隆或下载，复制存储库URL.
+3、git clone https://github.com/MisXinHang/GitWeb2.git     //克隆一个.git文件
+4、dir       //查看目录下的所有文件
+5、cd  GitWeb2   //切换到   GitWeb目录下。
+6、git add .      //监听所有文件
+7、git commit -m '备注信息'      //传输到临时的库中
+8、git push https://github.com/MisXinHang/GitWeb2.git master    //传输到总库中
+
+feffffeasd
