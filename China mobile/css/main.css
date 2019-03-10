@@ -1,0 +1,303 @@
+*{margin:0;padding:0;}
+a{text-decoration:none;}
+li{list-style:none;}
+body{/**/background: #f5f5f5;}
+div{box-sizing: border-box;}
+/*头部*/
+header{width: 100%;height: 34px;min-width:1200px;background:#f2f2f2;border-bottom: solid 1px #e5e5e5}
+header .Hmax{margin: auto;color:#999;font-size: 12px;width: 1200px;height: 34px;text-align: center; }
+header .Hmax .Hleft{float: left;width: 220px;height: 33px;line-height: 34px}
+header .Hmax .Hleft a{margin-left: 20px;color: #999;}
+header .Hmax .Hleft a:hover{color: #ff0036}
+header .Hmax ul{float: right;width: 530px;height: 34px;position: relative;}
+header .Hmax ul li{display: inline-block;margin-top: 10px;}
+
+/*淘宝*/
+header .Hmax ul li:hover .TB{background: white;outline: solid 1px #eee;}
+header .Hmax ul li>a{margin: 0 2px;height: 33px;overflow: hidden;padding: 9px 5px;}
+header .Hmax ul li a{color: #999; }
+header .Hmax ul li a:hover{color: #ff0036;}
+header .Hmax ul li .taobao{width: 94px;height: 56px;position: absolute;top:33px;display:none;left: 33px;border: solid 1px #eee;border-top: none;background: white;
+z-index: 22}
+header .Hmax ul li:hover .taobao{display: block;}
+header .Hmax ul li:hover .taobao a{display: block;line-height: 28px;}
+/*收藏夹*/
+header .Hmax ul li:hover .SCJ{background: white;outline: solid 1px #eee;}
+header .Hmax ul li .shoucang{width: 84px;height: 56px;position: absolute;top:33px;display:none;left: 179px;border: solid 1px #eee;border-top: none;background: white;
+    z-index: 22}
+header .Hmax ul li:hover .shoucang{display: block;}
+header .Hmax ul li .shoucang a{display: block;line-height: 28px;}
+/*手机版*/
+header .Hmax ul li:hover .SJ{background: white;outline: solid 1px #eee;}
+header .Hmax ul li .shoujiban{width: 175px;height: 228px;position: absolute;top:30px;display:none;left: 179px;border: solid 1px #eee;border-top: none;background: white;
+    z-index: 22}
+header .Hmax ul li:hover .shoujiban{display: block;}
+header .Hmax ul li .shoujiban a:last-child{display: block;}
+/*商家*/
+header .Hmax ul li:hover .SJZC{background: white;outline: solid 1px #eee;}
+header .Hmax ul li .shangjia{width: 142px;height: 176px;position: absolute;top:33px;display:none;right:105px;border: solid 1px #eee;border-top: none;background: white;
+    z-index: 22}
+header .Hmax ul li:hover .shangjia{display: block;}
+header .Hmax ul li .shangjia p{float:left;padding-left: 12px;text-align: left;padding-top: 10px;width: 142px;}
+header .Hmax ul li .shangjia a{float:left;padding-left: 12px;padding-top: 5px;}
+header .Hmax ul li .shangjia i{display: block;width: 110px;height: 1px;border-top: dashed 1px #000000;float: left;margin-left: 14px;margin-top: 7px;}
+header .Hmax ul li .shangjia .dashed{padding-top: 5px}
+/*网站导航*/
+header .Hmax ul li:hover .WZDH{background: white;outline: solid 1px #eee;}
+header .Hmax ul li span{color: #ff0036;font-size: 12px;margin-right: -3px;}
+header .Hmax ul li .wangzhan{width: 1210px;height: 160px;position: absolute;top:35px;display:none;border: solid 1px #eee;border-top: none;background: white;
+    right:20px;z-index: 22}
+header .Hmax ul li:hover .wangzhan{display: block;}
+header .Hmax ul li .wangzhan a:last-child{display: block;}
+header .Hmax ul li .wangzhan .one,.two{width: 460px;height: 110px;float: left;margin-left: 28px;text-align: left;position: relative;}
+header .Hmax ul li .wangzhan .one,.two,.three p{font-size: 16px;color:#f56a00;margin-top: 28px;float: left;width: 432px; font-weight: bold;}
+header .Hmax ul li .wangzhan .one a{float: left;text-align: left;width: 84px;height: 32px;line-height: 32px;font-size: 12px}
+header .Hmax ul li .wangzhan .one span{height: 110px;float: right;background: #f5f5f5;width: 1px;position: absolute;top:0;}
+header .Hmax ul li .wangzhan .two p{color: #2263d4;}
+header .Hmax ul li .wangzhan .two a{float: left;text-align: left;width: 84px;height: 32px;line-height: 32px;font-size: 12px}
+header .Hmax ul li .wangzhan .two span{height: 110px;float: right;background: #f5f5f5;width: 1px;position: absolute;top:0;}
+header .Hmax ul li .wangzhan .three p{color: #666;}
+header .Hmax ul li .wangzhan .three{width: 210px;height: 110px;float: left;margin-left: 28px;text-align: left;position: relative;}
+header .Hmax ul li .wangzhan .three a{float: left;text-align: left;width: 84px;height: 32px;line-height: 32px;font-size: 12px}
+/*导航栏*/
+nav{width: 100%;height:165px;background: #fff;border-bottom: solid 2px red;position: relative;z-index: 2}
+nav .Nmax{width: 1230px;margin: auto;height:165px;background: white;position: relative;z-index: 10}
+nav .Nmax>img{width: 182px;float: left;margin-top:31px;margin-left: 12px;}
+nav .Nmax .Nright{float:left;margin-left: 128px;width: 537px;height: 100px;}
+nav .Nmax .Nright input{color: #dbd0d6;width: 445px;height: 28px;border: solid 3px #ff0036;font-size: 12px;margin-top:38px;box-shadow: inset 0 3px #ddd;float: right;}
+nav .Nmax .Nright button{width: 86px;height: 34px;line-height: 34px;text-align: center;font-size: 16px;background: #ff0036;color: white;
+    border:none;margin-top: 38px;float: right;}
+nav .Nmax .Nright span{margin:  0 12px;float:left;margin-top: 7px;color: #999;}
+nav .Nmax .Nright a{font-size: 12px;float:left;margin-top: 11px;color: #ccc;}
+
+nav .Nmax .Nbuttom{width: 990px;height: 35px;line-height: 35px;float: left;margin-bottom: 0;position: absolute;bottom: 0;left: 0; }
+nav .Nmax .Nbuttom p{font-size: 18px;color: white;padding-left: 16px;background: #ff0036;width: 184px;height: 35px;line-height: 35px;float: left;}
+nav .Nmax .Nbuttom img{float: left;width: 96px;line-height: 35px;margin:  0 10px;}
+nav .Nmax .Nbuttom a{margin:  0 5px;font-size: 14px;color: #333;}
+nav .Nmax .Nbuttom a:hover{color: #ff0036;}
+
+nav .Nmax .Nright a:nth-child(4){color: #ff0036;}
+nav .Nmax .Nright a:nth-child(8){color: #ff0036;}
+nav .Nmax .Nright a:nth-child(14){color: #ff0036;}
+nav .Nmax .Nright a:nth-child(18){color: #ff0036;}
+/*轮播图*/
+.banner{
+    width: 100%;
+    background: #64e1f0;
+    height: 498px;
+    animation: k2 8s ease-out infinite
+}
+.banner .Bmax{
+    width: 1230px;
+    height: 498px;
+    margin: auto;
+    position: relative;
+    animation: k1 8s ease-out infinite;
+    background-size: 1230px 498px;}
+
+
+.banner .Bmax img{width: 1230px;height: 498px;}
+.banner .Bmax .Bleft{width: 200px;height:498px;background: #696969;float: left;position: absolute;top:0;}
+.banner .Bmax .Bleft ul li{width: 200px;height: 31px;line-height: 31px;}
+.banner .Bmax .Bleft ul li:hover{background: #fff;}
+.banner .Bmax .Bleft ul li i{margin:0 5px 0 10px;color: #fff;}
+.banner .Bmax .Bleft ul li:hover i{color: #f00;}
+.banner .Bmax .Bleft ul li>a{font-size: 14px;color: #fff;}
+.banner .Bmax .Bleft ul li:hover>a{color: #f00;}
+.banner .Bmax .Bright{width:220px;height: 480px;}
+.banner .Bmax .Bright a img{width: 220px;height:234px;position: absolute;right: 0;background: #ccc;top:9px;}
+.banner .Bmax .Bright a .Bright2{position: absolute;right: 0;top:253px;}
+.banner .Bmax .Bright a:hover img{background: #fff;}
+@keyframes k1 {
+    0%{background: url("../imgs/banner3.webp")}
+    25%{background: url("../imgs/banner4.webp")}
+    50%{background: url("../imgs/banner3.webp")}
+    75%{background: url("../imgs/banner4.webp")}
+    100%{background: url("../imgs/banner3.webp")}
+}
+@keyframes k2 {
+    0%{background:#FE531B;}
+    25%{background: #775DFE;}
+    50%{background:#FE531B;}
+    75%{background: #775DFE;}
+    100%{background:#FE531B;}
+}
+/*女装*/
+.banner .Bmax .Bleft ul li .nvzhuang{width: 852px;height: 478px;position: absolute;top:0;left: 200px;display: none;
+ padding-top: 19px;background: #fafafa;overflow: hidden;}
+.banner .Bmax .Bleft ul li:hover .nvzhuang{display: block;background: #fff;}
+.nvzhuang .NzLeft span{margin:  0 30px;color: #333;font-weight: bold;float:left;background: #fff;}
+.banner .Bmax .Bleft .nvzhuang .NzLeft a{font-size: 16px;}
+.banner .Bmax .Bleft .nvzhuang .NzLeft p{width: 495px;height:62px;margin-left: 118px;padding-left:32px;border-bottom: dashed 1px #e5e5e5;background: #fff; }
+.banner .Bmax .Bleft .nvzhuang .NzLeft p a{margin: 0 4px;float: left;color: #666666;font-size: 16px;}
+.banner .Bmax .Bleft .nvzhuang .NzLeft .liuxing a:nth-child(1){color: #e54077}
+.banner .Bmax .Bleft .nvzhuang .NzLeft .liuxing a:nth-child(3){color: #e54077}
+.banner .Bmax .Bleft .nvzhuang .NzLeft .liuxing a:nth-child(9){color: #e54077}
+.banner .Bmax .Bleft .nvzhuang .NzLeft .liuxing a:nth-child(11){color: #e54077}
+.banner .Bmax .Bleft .nvzhuang .NzLeft .jingxuan a:nth-child(1){color: #e54077}
+.banner .Bmax .Bleft .nvzhuang .NzLeft .jingxuan a:nth-child(2){color: #e54077}
+.banner .Bmax .Bleft .nvzhuang .NzLeft .jingxuan a:nth-child(3){color: #e54077}
+.banner .Bmax .Bleft .nvzhuang .NzLeft .langman a:nth-child(1){color: #e54077}
+.banner .Bmax .Bleft .nvzhuang .NzLeft .langman a:nth-child(3){color: #e54077}
+.banner .Bmax .Bleft .nvzhuang .NzLeft .langman a:nth-child(4){color: #e54077}
+.banner .Bmax .Bleft .nvzhuang .NzLeft .langman a:nth-child(7){color: #e54077}
+.banner .Bmax .Bleft .nvzhuang .NzLeft .nvshi a:nth-child(1){color: #e54077}
+.banner .Bmax .Bleft .nvzhuang .NzLeft .nvshi a:nth-child(2){color: #e54077}
+.banner .Bmax .Bleft .nvzhuang .NzLeft .nvshi a:nth-child(5){color: #e54077}
+.banner .Bmax .Bleft .nvzhuang .NzLeft .tese a:nth-child(1){color: #e54077}
+.banner .Bmax .Bleft .nvzhuang .NzLeft .tese a:nth-child(3){color: #e54077}
+.banner .Bmax .Bleft .nvzhuang .NzLeft .tese a:nth-child(4){color: #e54077}
+.banner .Bmax .Bleft .nvzhuang .NzLeft p a:hover{color: #e54077;}
+.banner .Bmax .Bleft .nvzhuang .NzLeft .Nmin{height: 45px;line-height: 45px;}
+.banner .Bmax .Bleft .nvzhuang .NzRight{width: 190px;height: 480px;position: absolute;right: 0;top:5px;background: #fafafa;border: solid 4px #fafafa;}
+.Bleft .nvzhuang .NzRight a{float: left;width: 90px;height: 46px;border: solid 1px #fafafa;background: #fff;}
+.Bleft .nvzhuang .NzRight a:last-child{width: 180px;height: 80px;float: left;margin-top: 15px;}
+.Bleft .nvzhuang .NzRight a:last-child img{width: 104px;height:55px;vertical-align: middle;margin-left: 35px;padding-top: 15px;}
+.Bleft .nvzhuang .NzRight a img{width: 54px;height: 20px;vertical-align: middle;margin-left:16px;}
+/*内容*/
+.content{width: 1230px;overflow: hidden;margin: auto;min-height:700px;background: #f5f5f5;font-size: 18px;margin-top: 34px;}
+.content .Cont p{width: 224px;height: 55px;line-height: 55px;text-align:left;font-weight: bold;background: #fff;padding-left: 10px;}
+.content .Cont p span{font-size: 12px;}
+.content .Cont p a i{float: right;width: 16px;height: 16px;border: solid 1px #9b9b9b;border-radius:50%;text-align: center;line-height: 15px;margin-top: 20px;
+margin-right: 15px;color: #9b9b9b;font-style: normal}
+.content .Cont a img{width: 234px;}
+.content .Cont{width: 234px;height: 372px;float: left;}
+.content .Ctwo {width: 485px;height:372px;float: left;margin-left: 13px;margin-bottom: 20px;}
+.content .Ctwo p{width: 475px;height: 55px;line-height: 55px;text-align: left;font-weight: bold;background: #fff;padding-left: 10px;}
+.content .Ctwo p a{font-size: 16px;color: #666666;float: right;}
+.content .Ctwo p a i{float: right;width: 16px;height: 16px;border: solid 1px #9b9b9b;border-radius:50%;text-align: center;line-height: 15px;margin-top: 19px;
+    margin-right: 15px;color: #9b9b9b;font-style: normal;margin-left: 5px;}
+.content .Ctwo p span{font-size: 12px;}
+.content .Ctwo a img{width: 485px;float: left;}
+/*内容小图片*/
+.content ul{margin-top: 20px;}
+.content ul li{width: 120px;height: 108px;float: left;border: solid 1px #f5f5f5;margin-left: 1px;margin-top: 1px;background: #fff;line-height: 108px;
+    text-align: center;position: relative;}
+.content ul li a{width: 120px;height: 108px;float: left;background:rgba(0,0,0,0.8);position: absolute;z-index: 21;left:0;top:1px;display:none ;font-size: 10px;
+    color: #fff;text-align: center;}
+.content ul li:hover a{display: block;}
+.content ul li a button{font-size: 12px;width: 64px;height: 18px;background: #ff0036;border-radius: 6px;border: none;float: left;margin-top: -42px;margin-left: 28px;color: #fff;
+text-align: center;line-height: 18px;}
+.content ul li img{width: 100px;height:36px;position: relative;z-index: 1}
+/*天猫超市*/
+.Ccopy{width: 1230px;margin: auto;background: #f5f5f5;min-height: 650px;margin-top: 20px;margin-bottom: 30px;box-sizing: border-box;}
+.Ccopy .Cheader{width: 1230px;height: 25px;margin:10px 0; }
+.Ccopy .Cheader img{height: 25px;float: left;}
+.Ccopy .Cheader a{float: right;margin: 0 9px 0 15px;color: #000;padding: 5px 0;font-size: 14px;}
+.Ccopy .Cheader a:hover{border-bottom: solid 1px #000;}
+.Ccopy .Cbuttom li{width: 236px;height: 302px;float: left;background: #fff;margin-right: 12px;margin-top: 12px;}
+.Ccopy .Cbuttom li:hover{opacity: 0.8;outline: solid 1px #ff0036;}
+.Ccopy .Cbuttom li a img{width: 185px;margin: 25px 25px 0 25px;}
+.Ccopy .Cbuttom li a p{font-size: 14px;color: #000;width: 135px;height: 40px;margin: auto;overflow: hidden;/*text-overflow: ellipsis;white-space: nowrap;*/}
+.Ccopy .Cbuttom li a i{color: #ff0036;font-size: 18px;display:inline-block;text-align: center;margin-top: 10px;width: 196px;font-style: normal;}
+.Ccopy .Cbuttom .Cmright{margin-right: 0}
+.Ccopy .Cbuttom .Cmtop{margin-top: 0}
+.Ccopy .Cbuttom .Bigli{height: 616px;width: 236px;float: left;position: relative;}
+.Ccopy .Cbuttom .Bigli:hover{outline: none;}
+.Ccopy .Cbuttom .Bigli div img{position: absolute;z-index: 33;width: 32px;right:-50px;bottom: -105px;}
+.Ccopy .Cbuttom .Bigli div{width: 198px;height: 64px;position: absolute;z-index: 2;bottom:124px;font-size: 16px;
+    text-align: center;color: #fff;cursor: pointer;}
+.Ccopy .Cbuttom .Bigli div p{width: 70px;height: 54px;float: left;background: #000;padding-top: 10px;}
+.Ccopy .Cbuttom .Bigli div span{padding-top: 10px;float: left;width: 128px;height: 54px;background: rgba(26,9,8,0.5)}
+.Ccopy .Cbuttom .Bigli a .Cimg{width: 236px;height:616px;position: absolute;z-index: 1;left:-25px;top:-25px;}
+/*横向两个li组合*/
+.Ccopy .Cbuttom .Bigwidth{height: 302px;width: 484px;float: left;position: relative;}
+.Ccopy .Cbuttom .Bigwidth:hover{outline: none;}
+.Ccopy .Cbuttom .Bigwidth div{width: 462px;height:280px;background: #fff;box-shadow:1px 2px 8px #aeadad;margin:12px auto;
+    position: relative;z-index: 2 }
+.Ccopy .Cbuttom .Bigwidth div button{height: 57px;width: 231px;text-align: center;line-height: 57px;color: #000;font-size: 16px;float: left;border: none;}
+.Ccopy .Cbuttom .Bigwidth div button:first-child{background:#00b262;color: #fff;}
+.Ccopy .Cbuttom .Bigwidth div button:hover{background:#00b262;color: #fff; }
+.Ccopy .Cbuttom .Bigwidth p{width: 255px;height: 73px;background: rgba(241,241,241,0.8);position: absolute;z-index: 22;left: 10px;top:143px;
+    text-align:left;padding-top: 14px;padding-left: 26px;}
+.Ccopy .Cbuttom .Bigwidth p a{color:#000;font-size: 18px;float: left;}
+.Ccopy .Cbuttom .Bigwidth p a span{font-size: 24px;color: #00b262;font-weight: bold;display: inline-block;margin-bottom: 5px;}
+.Ccopy .Cbuttom .Bigwidth p a i{font-size: 23px;color: #00b262;}
+.Ccopy .Cbuttom .Bigwidth>i{position: absolute;width: 0;height: 0;border: solid 44px;z-index: 22;left:291px;top:143px;
+border-color:transparent transparent transparent rgba(241,241,241,0.8)}
+.Ccopy .Cbuttom .Bigwidth img{width: 200px;position: absolute;z-index: 12;top:69px;right:11px;}
+/*第二个copy*/
+.Ccopy .Cbuttom .Cby p{font-size: 18px;margin-left: 25px;line-height: 40px;}
+.Ccopy .Cbuttom .Cby a i{font-style: normal;text-align: left;margin-left: 25px;font-size: 14px;color: #7a45e5;margin-top: 0;}
+
+.Ccopy .Cbuttom .Cmargin{position: relative;}
+.Ccopy .Cbuttom .Cmargin:hover{outline: none;}
+.Ccopy .Cbuttom .Cmargin a img{width: 236px;height: 302px;margin: 0;}
+.Ccopy .Cbuttom .Cmargin div{width: 198px;height: 64px;position: absolute;z-index: 2;bottom:60px;font-size: 16px;
+    text-align: center;color: #fff;cursor: pointer;}
+.Ccopy .Cbuttom .Cmargin div p{width: 70px;height: 54px;float: left;background: #000;padding-top: 10px;}
+.Ccopy .Cbuttom .Cmargin div span{padding-top: 10px;float: left;width: 128px;height: 54px;background: rgba(26,9,8,0.5)}
+.Ccopy .Cbuttom .Cmargin div img{position: absolute;z-index: 33;width: 32px;height:32px;right:-25px;bottom: -45px;}
+.Ccopy a img{width: 1230px;margin-top:20px}
+/*第三copy*/
+.Ccopy .Cborder{border-left:solid 5px #000;}
+.Ccopy .Cborder>span{font-size: 12px;}
+/*猜你喜欢*/
+.Ccopy .Cheader>p{text-align: center;font-size: 20px;font-weight: bold;display: inline-block;margin-left:4px;}
+.Ccopy .Cheader .fa{display: inline-block;width: 20px;height: 20px;font-size: 20px;color: #ff0036;margin-left:550px;}
+/*售后*/
+.Cservice{width: 100%;background: #fff;height: 363px;border-top:solid 1px #d1d7dc;border-bottom: solid 2px #ff0036;margin-top: 70px;float: left;}
+.Cservice .Ctop{width: 1230px;height: 150px;margin: auto;border-bottom: solid 1px #ededed;}
+.Cservice .Ctop a{float: left;color: #9b9b9b;width: 210px;height: 50px;margin: 50px 0 0 85px;}
+.Cservice .Ctop a p{font-size: 16px;font-weight: bold;color: #000;margin-bottom: 5px;}
+.Cservice .Ctop a span{float: left;border: solid 3px #ff0036;width: 47px;height: 47px;line-height: 47px;text-align: center;border-radius: 50%;
+font-size: 28px;color: #ff0036;margin-right: 16px;}
+.Cservice .Cbuttom{width: 1230px;height:212px;margin: auto;}
+.Cservice .Cbuttom dl{float: left;font-size: 16px;color: #646464;width: 110px;overflow: hidden;margin: 28px 35px 0 90px;}
+.Cservice .Cbuttom dl dt{font-size: 12px;}
+.Cservice .Cbuttom dl dt a{color: #8b8b8b;}
+.Cservice .Cbuttom dl dt a img{width: 98px;}
+.Cservice .Cbuttom dl dt:first-child{margin-top:8px;}
+.Cservice .Cbuttom dl dt{margin-top: 3px;}
+/*底部*/
+footer{width: 100%;height:220px;background: #000;float: left;}
+footer p{width: 1230px;height:36px;margin: auto;color: #fff;line-height: 36px;}
+footer p a{font-size: 12px;color:#fff; }
+footer p span{font-size: 12px;}
+footer .Fbase{width: 1230px;overflow: hidden;margin: auto;color: #a4a4a4;font-size: 12px;position: relative;}
+footer .Fbase a,i{margin-right: 57px;color: #a4a4a4;display: inline-block;margin-bottom: 5px;}
+footer .Fbase a img{position: absolute;top:19px;right: 275px;}
+footer .Fbase i{font-style: normal;margin-right: 103px}
+footer .Fbase span{color: #686868;display: block;margin-top: 5px;margin-bottom: 14px;}
+footer .Fbase img{margin-right: 13px;}
+/*侧边栏*/
+aside{height: 100%;width: 36px;position: fixed;background: #000;right: 0;top:0;text-align: center;z-index: 100;}
+aside .Atop{position:absolute;top:285px;}
+aside .Atop a{color: #fff;display: block;height: 36px;width: 36px;text-align: center;line-height: 36px;}
+aside .Atop a span{display: block;margin-top: 9px;margin-bottom: 3px;color: #ff0036;}
+aside .Atop .shopping{width: 36px;height: 100px;line-height: normal;padding-top: 10px;text-align: center;font-size: 14px;padding-right: 5px;}
+aside .Atop .shopping:hover span{color: #fff;}
+aside .Atop a:hover{background: #ff0036;}
+aside .Atop a div{width: 90px;height: 36px;background: #494949;position: absolute;right:80px;top:0;text-align: center;line-height: 35px;display:none;
+    animation: kC 0.5s ease-in forwards;}
+aside .Atop .k3 div{width: 90px;height: 36px;background: #494949;position: absolute;right:80px;top:146px;text-align: center;line-height: 35px;display:none;
+    animation: kC 0.5s ease-in forwards;}
+aside .Atop .k4 div{width: 90px;height: 36px;background: #494949;position: absolute;right:80px;top:184px;text-align: center;line-height: 35px;display:none;
+    animation: kC 0.5s ease-in forwards;}
+aside .Atop .k5 div{width: 90px;height: 36px;background: #494949;position: absolute;right:80px;top:220px;text-align: center;line-height: 35px;display:none;
+    animation: kC 0.5s ease-in forwards;}
+
+aside .Atop .k6 div{width: 90px;height: 36px;background: #494949;position: absolute;right:80px;top:256px;text-align: center;line-height: 35px;display:none;
+    animation: kC 0.5s ease-in forwards;}
+
+aside .Atop a div p{width: 0;height: 0;position: absolute;right:-14px;top:9px;border: solid 7px;
+    border-color:transparent transparent transparent #494949;}
+aside .Atop a:hover div{display: block;}
+@keyframes kC {
+    0%{transform: translateX(0);opacity: 0}
+    100%{transform: translateX(39px);opacity:1}
+    0%{transform: translateX(0);opacity: 0}
+}
+aside .Abuttom{bottom: 0;position: absolute;}
+aside .Abuttom a{color: #fff;display: block;height: 36px;width: 36px;text-align: center;line-height: 36px;}
+aside .Abuttom a span{display: block;margin-top: 9px;margin-bottom: 3px;color: #ff0036;}
+aside .Abuttom a div{width: 90px;height: 36px;background: #494949;position: absolute;right:76px;top:0;text-align: center;line-height: 35px;display:none;
+    animation: kC 0.5s ease-in forwards;}
+aside .Abuttom a div p{width: 0;height: 0;position: absolute;right:-14px;top:9px;border: solid 7px;
+    border-color:transparent transparent transparent #494949;}
+aside .Abuttom .k8 div{width: 90px;height: 36px;background: #494949;position: absolute;right:76px;top:72px;text-align: center;line-height: 35px;display:none;
+    animation: kC 0.5s ease-in forwards;}
+aside .Abuttom .k9 div{width: 90px;height: 36px;background: #494949;position: absolute;right:76px;top:36px;text-align: center;line-height: 35px;display:none;
+    animation: kC 0.5s ease-in forwards;}
+aside .Abuttom a:hover{background: #ff0036;}
+aside .Abuttom a:hover div{display: block;}
